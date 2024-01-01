@@ -3,7 +3,6 @@ import { CreateBoardDto } from './dto/create-board.dto';
 import { BoardStatus } from './board-status.enum';
 import { Board } from './board.entity';
 import { BoardRepository } from './board.repository';
-import { InjectRepository } from '@nestjs/typeorm';
 
 @Injectable()
 export class BoardsService {
